@@ -4,9 +4,6 @@
   "description": "eJabberd Authentication Daemon",
   "keywords": ["ejabberd", "ldap"],
   "license": "Expat",
-  "directories": {
-    "bin": "./bin"
-  },
   "bin": {
     "ejabberd-auth": "./bin/ejabberd-auth.js"
   },
