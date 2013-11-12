@@ -1,0 +1,37 @@
+# Configuration file for ejabberd-auth.
+#
+# At present, only LDAP authentication is supported.
+#
+
+# The method to use for authentication.
+# (At the moment 'ldap' is the only supported method.)
+# Default: ldap
+#method: ldap
+
+ldap:
+    # URL to use to connect to the server.
+    # Default: ldap://localhost
+    #uri: ldap://localhost
+
+    # If anonymous binding is disallowed, the DN (and password) to bind with
+    # to search for accounts.
+    # WARNING! If set, don't forget to secure this file:
+    #   chown root.ejabberd ejabberd-auth.yaml && chmod 640 ejabberd-auth.yaml.
+    #admin:
+    #    dn: cn=ejabberd,ou=services,dc=example,dc=com
+    #    password: guessmeifyoucan
+
+    # Base for searching.
+    # Default: none
+    base: dc=example,dc=com
+
+    # Attribute to match against the username.
+    # Default: uuid
+    #uuidAttr: uuid
+
+    # The filter to use to search for accounts.
+    # Default: (userPassword=*)
+    #filter: (userPassword=*)
+
+# vi: sw=4
+# vim: et

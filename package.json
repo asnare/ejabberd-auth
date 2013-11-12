@@ -1,0 +1,29 @@
+{
+  "name": "ejabberd-auth",
+  "version": "1.0.0",
+  "description": "eJabberd Authentication Daemon",
+  "keywords": ["ejabberd", "ldap"],
+  "license": "Expat",
+  "directories": {
+    "bin": "./bin"
+  },
+  "bin": {
+    "ejabberd-auth": "./bin/ejabberd-auth.js"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "ldapjs": "~0.6",
+    "etc": "~0.3",
+    "etc-yaml": "~0.0"
+  },
+  "engines": {
+    "node": "~0.10",
+    "npm": "1"
+  },
+  "author": "Andrew Snare <ajs@pigpond.com>",
+  "preferGlobal": true,
+  "private": true
+}
