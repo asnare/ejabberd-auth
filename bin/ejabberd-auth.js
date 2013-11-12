@@ -2,7 +2,7 @@
 //
 // NodeJS script that implements an authentication daemon for eJabberd.
 //
-'use strict;';
+'use strict';
 
 var assert  = require('assert'),
     etc     = require('etc'),
