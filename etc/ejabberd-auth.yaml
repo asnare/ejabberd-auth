@@ -22,8 +22,8 @@ ldap:
     #    password: guessmeifyoucan
 
     # Base for searching.
-    # Default: none
-    base: dc=example,dc=com
+    # Default: autodetect
+    #base: dc=example,dc=com
 
     # Attribute to match against the username.
     # Default: uuid

@@ -12,10 +12,9 @@ binding. (It has been tested with eJabberd 2.1.10 and OpenLDAP 2.4.31.)
 Configuration
 -------------
 
-Edit the file `etc/ejabberd-auth.yaml` and configure:
-
- - At a minimum, the base context for your server.
- - Any other settings where the default is inappropriate.
+For OpenLDAP the default settings may suffice, assuming anonymous
+searches are allowed. Edit the file `etc/ejabberd-auth.yaml` to
+review the default configuration and adjust anything necessary.
 
 *Note that installing globally (below) will copy this file to global location.*
 
