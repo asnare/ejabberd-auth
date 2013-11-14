@@ -6,9 +6,11 @@
 # The method to use for authentication.
 # (At the moment 'ldap' is the only supported method.)
 # Default: ldap
-#method: ldap
+method: ldap
 
-ldap:
+# Uncomment if any of the following LDAP properties need
+# to be set.
+#ldap:
     # URL to use to connect to the server.
     # Default: ldap://localhost
     #uri: ldap://localhost
@@ -22,8 +24,8 @@ ldap:
     #    password: guessmeifyoucan
 
     # Base for searching.
-    # Default: none
-    base: dc=example,dc=com
+    # Default: autodetect
+    #base: dc=example,dc=com
 
     # Attribute to match against the username.
     # Default: uuid
