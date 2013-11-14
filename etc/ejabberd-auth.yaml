@@ -8,6 +8,8 @@
 # Default: ldap
 method: ldap
 
+# Uncomment if any of the following LDAP properties need
+# to be set.
 #ldap:
     # URL to use to connect to the server.
     # Default: ldap://localhost
