@@ -12,7 +12,8 @@ var assert  = require('assert'),
             method: 'ldap',
             ldap: {
                 uri: 'ldap://127.0.0.1',
-                filter: '(objectClass=*)'
+                filter: '(userPassword=*)',
+                uuidAttr: 'uuid'
             }
         }
     }),
