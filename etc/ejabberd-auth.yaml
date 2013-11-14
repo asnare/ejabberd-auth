@@ -6,9 +6,9 @@
 # The method to use for authentication.
 # (At the moment 'ldap' is the only supported method.)
 # Default: ldap
-#method: ldap
+method: ldap
 
-ldap:
+#ldap:
     # URL to use to connect to the server.
     # Default: ldap://localhost
     #uri: ldap://localhost
